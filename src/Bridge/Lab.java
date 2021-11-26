@@ -7,5 +7,5 @@ public abstract class Lab {
         this.teacher = teacher;
     }
 
-    public abstract void takeLab();
+    public abstract void getDescription();
 }
