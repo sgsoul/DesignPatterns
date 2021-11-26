@@ -7,8 +7,8 @@ public class DoneLab extends Lab {
     }
 
     @Override
-    public void takeLab() {
+    public void getDescription() {
         System.out.println("Сдается готовая лаба");
-        teacher.askQuestions();
+        teacher.askQuestions(this);
     }
 }
