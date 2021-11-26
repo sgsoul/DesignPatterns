@@ -3,7 +3,7 @@ package Bridge;
 public abstract class Lab {
     protected Teacher teacher;
 
-    protected Lab(Teacher teacher) {
+    public Lab(Teacher teacher) {
         this.teacher = teacher;
     }
 
