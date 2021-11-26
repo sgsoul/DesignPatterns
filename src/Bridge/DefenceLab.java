@@ -8,7 +8,7 @@ public class DefenceLab {
         };
 
         for(Lab lab: labs){
-            lab.takeLab();
+            lab.getDescription();
         }
     }
 }
