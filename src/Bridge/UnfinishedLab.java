@@ -7,8 +7,8 @@ public class UnfinishedLab extends Lab {
     }
 
     @Override
-    public void takeLab() {
+    public void getDescription() {
         System.out.println("Сдается незаконченная лаба (R.I.P.)");
-        teacher.askQuestions();
+        teacher.askQuestions(this);
     }
 }
