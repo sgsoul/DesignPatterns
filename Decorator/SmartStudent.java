@@ -1,7 +1,8 @@
 package Decorator;
 
 public class SmartStudent extends StudentDecorator {
-    public SmartStudent(DefaultStudent student) {
+    IStudent student;
+    public SmartStudent(IStudent student) {
         super(student);
     }
 
